@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2.0.0",
+  "updatedAt": "2026-10-14",
+  "stagesUrl": "stages.json",
+  "booksUrl": "books.json",
+  "memorizationUrl": "memorization.json",
+  "quizzesUrl": "quizzes.json",
+  "scheduleUrl": "schedule.json"
+}

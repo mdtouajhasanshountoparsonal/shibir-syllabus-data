@@ -1,0 +1,324 @@
+{
+  "stages": [
+    {
+      "id": "kormi-quran",
+      "title": "১. আল কুরআন",
+      "subtitle": "শুদ্ধ তিলাওয়াত, মুখস্থ ও তাজবিদ",
+      "description": "লক্ষ্য: শুদ্ধভাবে কুরআন পড়তে চেষ্টা করা • অর্থসহ মুখস্থকরণ: সূরা আল ফাতিহা • ১২টি সূরা বিশুদ্ধভাবে মুখস্থকরণ: সূরা আল আসর থেকে সূরা আন নাস পর্যন্ত • তাজবিদ ও কুরআন সংক্রান্ত প্রাথমিক জ্ঞানার্জন করা • ঈমান, ইসলাম, আখিরাত, ইলম, সালাত, সাওম ও ইসলামী আন্দোলন সম্পর্কে আয়াত জানা।\n\nকুরআন মুখস্থ নির্দেশনা: সূরা আল বাকারা: ১৫৫ • আয়াতুল কুরসি • সূরা আল হাশর: শেষ রুকু • সূরা আদ দুহা থেকে সূরা আত তাকাসুর পর্যন্ত।",
+      "items": [
+        {
+          "id": "quran-bakara",
+          "title": "১. সূরা আল বাকারা: ১ম ও ২য় রুকু",
+          "type": "quran",
+          "category": "অধ্যয়ন",
+          "bookId": "book_bakara",
+          "description": "তাফসির গ্রন্থ: তাফহীমুল কুরআন।",
+          "estimatedMinutes": 40
+        },
+        {
+          "id": "quran-jiljal",
+          "title": "২. সূরা আল জিলজাল",
+          "type": "quran",
+          "category": "অধ্যয়ন",
+          "bookId": "book_jiljal",
+          "description": "তাফসির গ্রন্থ: তাফহীমুল কুরআন।",
+          "estimatedMinutes": 20
+        },
+        {
+          "id": "quran-sof",
+          "title": "৩. সূরা আস্ সফ",
+          "type": "quran",
+          "category": "অধ্যয়ন",
+          "bookId": "book_sof",
+          "description": "তাফসির গ্রন্থ: তাফহীমুল কুরআন।",
+          "estimatedMinutes": 25
+        },
+        {
+          "id": "quran-12-sura",
+          "title": "৪. নামাজে বহুল পঠিত ১২টি সূরা: সূরা আল আসর থেকে সূরা আন নাস পর্যন্ত",
+          "type": "quran",
+          "category": "অধ্যয়ন",
+          "bookId": "book_12sura",
+          "description": "তাফসির গ্রন্থ: তাফহীমুল কুরআন।",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "quran-tajbid",
+          "title": "১. তাজবীদ শিক্ষা — ইসলামিক এডুকেশন সোসাইটি",
+          "type": "book",
+          "category": "গ্রন্থনির্দেশনা",
+          "bookId": "book_tajbid",
+          "description": "শুদ্ধ তিলাওয়াতের নিয়মাবলি।",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "quran-ayat-hadis",
+          "title": "২. বিষয়ভিত্তিক আয়াত ও হাদিস সংকলন — আইসিএস পাবলিকেশন",
+          "type": "book",
+          "category": "গ্রন্থনির্দেশনা",
+          "bookId": "book_ayat_hadis",
+          "description": "বিষয়ভিত্তিক আয়াত ও হাদিসের সংকলন।",
+          "estimatedMinutes": 25
+        }
+      ]
+    },
+    {
+      "id": "kormi-hadith",
+      "title": "২. আল হাদিস",
+      "subtitle": "রাহে আমল",
+      "description": "লক্ষ্য: হাদিস সংক্রান্ত প্রাথমিক জ্ঞানার্জন করা • ঈমান, ইসলাম, আখিরাত, ইলম, সালাত, সাওম ও ইসলামী আন্দোলন সম্পর্কে হাদিস জানা।",
+      "items": [
+        {
+          "id": "hadith-rahe-amol",
+          "title": "১. রাহে আমল (১ম খণ্ড) — আল্লামা জলীল আহসান নদভী",
+          "type": "hadith",
+          "category": "অধ্যয়ন",
+          "bookId": "book_rahe_amol",
+          "description": "হাদিসভিত্তিক দৈনন্দিন আমল ও শিক্ষা।",
+          "estimatedMinutes": 40
+        }
+      ]
+    },
+    {
+      "id": "kormi-jibonadarsho",
+      "title": "৩. ইসলামী জীবনাদর্শ",
+      "subtitle": "ঈমান, জীবনব্যবস্থা ও ঐতিহ্য",
+      "description": "লক্ষ্য: ঈমানের প্রাথমিক পরিচয় ও দাবি • ইসলামী জীবনব্যবস্থা সম্পর্কে প্রাথমিক ধারণা • মুসলমান কাকে বলে? মুসলমান ও কাফিরের মধ্যে পার্থক্য • তাওহিদ, রিসালাত ও আখিরাত সম্পর্কে ধারণা • আল্লাহর দিকে আহ্বানের গুরুত্ব ও পদ্ধতি • ইসলামের সোনালি ঐতিহ্য/অতীত।",
+      "items": [
+        {
+          "id": "jib-prathomic",
+          "title": "১. ইসলামের প্রাথমিক পরিচয় — বাংলাদেশ দাওয়াহ সার্কেল",
+          "type": "book",
+          "category": "পাঠ্যবই",
+          "bookId": "book_islamer_prathomic",
+          "description": "",
+          "estimatedMinutes": 35
+        },
+        {
+          "id": "jib-iman",
+          "title": "২. ঈমানের হাকীকত — সাইয়েদ আবুল আ'লা মওদূদী",
+          "type": "book",
+          "category": "পাঠ্যবই",
+          "bookId": "book_imaner_haqiqat",
+          "description": "",
+          "estimatedMinutes": 35
+        },
+        {
+          "id": "jib-namaz-roja",
+          "title": "৩. নামাজ-রোজার হাকীকত — সাইয়েদ আবুল আ'লা মওদূদী",
+          "type": "book",
+          "category": "পাঠ্যবই",
+          "bookId": "book_namaz_rojar",
+          "description": "",
+          "estimatedMinutes": 35
+        },
+        {
+          "id": "jib-amra-ki-chai",
+          "title": "৪. আমরা কি চাই কেন চাই কিভাবে চাই? — বিআইসিএস",
+          "type": "book",
+          "category": "পাঠ্যবই",
+          "bookId": "book_amra_ki_chai",
+          "description": "",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "jib-eso-alor-pothe",
+          "title": "৫. এসো আলোর পথে — বিআইসিএস",
+          "type": "book",
+          "category": "পাঠ্যবই",
+          "bookId": "book_eso_alor_pothe",
+          "description": "",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "jib-amra-sei-se-jati",
+          "title": "৬. আমরা সেই সে জাতি (১ম খণ্ড) — আবুল আসাদ",
+          "type": "book",
+          "category": "পাঠ্যবই",
+          "bookId": "book_amra_sei_se_jati",
+          "description": "",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "jib-sahoshi-1",
+          "title": "৭. সাহসী মানুষের গল্প (১ম খণ্ড) — মোশাররফ হোসেন খান",
+          "type": "book",
+          "category": "পাঠ্যবই",
+          "bookId": "book_sahoshi_1",
+          "description": "",
+          "estimatedMinutes": 25
+        },
+        {
+          "id": "jib-sahoshi-2",
+          "title": "৮. সাহসী মানুষের গল্প (২য় খণ্ড) — মোশাররফ হোসেন খান",
+          "type": "book",
+          "category": "পাঠ্যবই",
+          "bookId": "book_sahoshi_2",
+          "description": "",
+          "estimatedMinutes": 25
+        },
+        {
+          "id": "jib-allahr-dike",
+          "title": "১. আল্লাহর দিকে আহবান — এ কে এম নাজির আহমদ",
+          "type": "book",
+          "category": "গ্রন্থনির্দেশনা",
+          "bookId": "book_allahr_dike",
+          "description": "",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "jib-muktir-poygam",
+          "title": "২. মুক্তির পয়গাম — ইবনে মাসুম",
+          "type": "book",
+          "category": "গ্রন্থনির্দেশনা",
+          "bookId": "book_muktir_poygam",
+          "description": "",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "jib-montake-kaj",
+          "title": "৩. মনটাকে কাজ দিন — অধ্যাপক গোলাম আযম",
+          "type": "book",
+          "category": "গ্রন্থনির্দেশনা",
+          "bookId": "book_montake_kaj",
+          "description": "",
+          "estimatedMinutes": 25
+        }
+      ]
+    },
+    {
+      "id": "kormi-andolon",
+      "title": "৪. ইসলামী আন্দোলন ও সংগঠন",
+      "subtitle": "কর্মপদ্ধতি ও সংবিধান",
+      "description": "লক্ষ্য: সংগঠনের গুরুত্ব সম্পর্কে জানা • শিবিরের লক্ষ্য-উদ্দেশ্য ও পাঁচ দফা কর্মসূচি মুখস্থ করা • পাঁচ দফা কর্মসূচি বাস্তবায়ন ও কার্যক্রম সম্পর্কে প্রাথমিক জ্ঞানার্জন করা • ইসলামী আন্দোলন কী, কেন এবং না করার পরিণাম।",
+      "items": [
+        {
+          "id": "and-kormopoddhoti",
+          "title": "১. কর্মপদ্ধতি — বিআইসিএস",
+          "type": "book",
+          "category": "পাঠ্যবই",
+          "bookId": "book_kormopoddhoti",
+          "description": "সংগঠনের কর্মপদ্ধতি ও পাঁচ দফা কর্মসূচি।",
+          "estimatedMinutes": 40
+        },
+        {
+          "id": "and-songbidhan",
+          "title": "১. সংবিধান — বিআইসিএস",
+          "type": "book",
+          "category": "গ্রন্থনির্দেশনা",
+          "bookId": "book_songbidhan",
+          "description": "সংগঠনের গঠনতন্ত্র ও লক্ষ্য-উদ্দেশ্য।",
+          "estimatedMinutes": 30
+        }
+      ]
+    },
+    {
+      "id": "kormi-masael",
+      "title": "৫. মাসআলা-মাসায়েল",
+      "subtitle": "পবিত্রতা, সালাত ও সাওম",
+      "description": "লক্ষ্য: অজু, গোসল ও তায়াম্মুম সংক্রান্ত প্রয়োজনীয় মাসআলা-মাসায়েল • সালাত ও সাওম সংক্রান্ত প্রয়োজনীয় মাসআলা-মাসায়েল।",
+      "items": [
+        {
+          "id": "mas-masnun-dowa",
+          "title": "১. দৈনন্দিন মাসনুন দোয়া ও মাসআলা মাসায়েল — আইসিএস পাবলিকেশন",
+          "type": "book",
+          "category": "পাঠ্যবই",
+          "bookId": "book_masnun_dowa",
+          "description": "",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "mas-asan-fekah",
+          "title": "১. আসান ফেকাহ (১ম খণ্ড) — আল্লামা ইউসুফ ইসলাহী",
+          "type": "book",
+          "category": "গ্রন্থনির্দেশনা",
+          "bookId": "book_asan_fekah",
+          "description": "",
+          "estimatedMinutes": 35
+        }
+      ]
+    },
+    {
+      "id": "kormi-career",
+      "title": "৬. ক্যারিয়ার ও দক্ষতা",
+      "subtitle": "ক্যারিয়ার সচেতনতা ও প্রযুক্তি",
+      "description": "লক্ষ্য: ক্যারিয়ার সচেতনতা এবং মন ও মননের বিকাশ সাধন • জ্ঞান-বিজ্ঞান ও আধুনিক প্রযুক্তি সম্পর্কে ধারণা অর্জন • একাডেমিক উৎকর্ষ সাধন।",
+      "items": [
+        {
+          "id": "car-mora-boro",
+          "title": "১. মোরা বড় হতে চাই — আহসান হাবীব ইমরোজ",
+          "type": "book",
+          "category": "পাঠ্যবই",
+          "bookId": "book_mora_boro",
+          "description": "",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "car-career-bikoshito",
+          "title": "১. ক্যারিয়ার বিকশিত জীবনের দ্বার — আইসিএস পাবলিকেশন",
+          "type": "book",
+          "category": "গ্রন্থনির্দেশনা",
+          "bookId": "book_career_bikoshito",
+          "description": "",
+          "estimatedMinutes": 30
+        },
+        {
+          "id": "car-tech-somporke",
+          "title": "২. তথ্যপ্রযুক্তির সহজ পাঠ — আইসিএস পাবলিকেশন",
+          "type": "other",
+          "category": "গ্রন্থনির্দেশনা",
+          "description": "লিংক শীঘ্রই যুক্ত হবে।",
+          "estimatedMinutes": 25
+        },
+        {
+          "id": "car-kazi-din",
+          "title": "৩. ড. কাজী দীন মুহম্মদ রচনাবলী — নতুন মাত্রা",
+          "type": "other",
+          "category": "গ্রন্থনির্দেশনা",
+          "description": "লিংক শীঘ্রই যুক্ত হবে।",
+          "estimatedMinutes": 25
+        },
+        {
+          "id": "car-uss",
+          "title": "৪. Understanding Science Series (USS) — BICS",
+          "type": "other",
+          "category": "গ্রন্থনির্দেশনা",
+          "description": "লিংক শীঘ্রই যুক্ত হবে।",
+          "estimatedMinutes": 25
+        }
+      ]
+    },
+    {
+      "id": "kormi-bibidho",
+      "title": "৭. বিবিধ",
+      "subtitle": "ভাষা, সাধারণ জ্ঞান ও স্বাস্থ্য",
+      "description": "১. ভাষাগত দক্ষতা অর্জন (আরবি, বাংলা ও ইংরেজি) • ২. সাধারণ জ্ঞান • ৩. স্বাস্থ্য সচেতনতা।",
+      "items": [
+        {
+          "id": "bib-language",
+          "title": "১. ভাষাগত দক্ষতা অর্জন (আরবি, বাংলা ও ইংরেজি)",
+          "type": "other",
+          "category": "দক্ষতা",
+          "description": "ভাষাগত দক্ষতা বৃদ্ধির নিয়মিত চর্চা।",
+          "estimatedMinutes": 20
+        },
+        {
+          "id": "bib-general-knowledge",
+          "title": "২. সাধারণ জ্ঞান",
+          "type": "other",
+          "category": "সাধারণ জ্ঞান",
+          "description": "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলি।",
+          "estimatedMinutes": 20
+        },
+        {
+          "id": "bib-health",
+          "title": "৩. স্বাস্থ্য সচেতনতা",
+          "type": "other",
+          "category": "স্বাস্থ্য",
+          "description": "স্বাস্থ্য ও পরিবেশ সম্পর্কে সচেতনতা।",
+          "estimatedMinutes": 15
+        }
+      ]
+    }
+  ]
+}
