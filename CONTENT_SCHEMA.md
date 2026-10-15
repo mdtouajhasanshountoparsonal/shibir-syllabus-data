@@ -14,24 +14,29 @@
 | `memorizationUrl` | string | memorization ফাইলের URL |
 | `quizzesUrl` | string | quizzes ফাইলের URL |
 | `scheduleUrl` | string | schedule ফাইলের URL (ঐচ্ছিক) |
+| `programsUrl` | string | programs ফাইলের URL (ঐচ্ছিক) |
 
 ## `stages.json`
+
+প্রতিটি `stage` একটি বিষয় (যেমন আল কুরআন, আল হাদিস)। `goals` ঐচ্ছিক — বিষয়ের লক্ষ্য/উদ্দেশ্যের তালিকা। প্রতিটি `item`-এর `category` গ্রুপ র্যাঙ্ক নির্ধারণ করে (নিচে দেখো)।
 
 ```json
 {
   "stages": [
     {
-      "id": "worker",
-      "title": "কর্মী",
-      "subtitle": "প্রাথমিক অধ্যয়ন",
+      "id": "kormi-quran",
+      "title": "১. আল কুরআন",
+      "subtitle": "তিলাওয়াত, তাজবিদ ও অর্থসহ মুখস্থ",
       "description": "…",
+      "goals": ["শুদ্ধভাবে কুরআন পড়তে চেষ্টা করা", "…"],
       "items": [
         {
-          "id": "worker-book-1",
-          "title": "…",
-          "type": "book",
-          "category": "reading",
-          "bookId": "book_001",
+          "id": "quran-bakara",
+          "title": "১. সূরা আল বাকারা : ১ম ও ২য় রুকু",
+          "type": "quran",
+          "category": "অধ্যয়ন",
+          "bookId": "book_bakara",
+          "memoId": "",
           "description": "…",
           "author": "…",
           "sourceUrl": "",
@@ -44,6 +49,9 @@
 ```
 
 `type` মান: `book` | `quran` | `hadith` | `memorization` | `other` | `assessment`
+
+`category` মান (প্রদর্শনের ক্রম): `অধ্যয়ন` | `পাঠ্যবই` | `গ্রন্থনির্দেশনা` | `কুরআন মুখস্থ নির্দেশনা` | `বিবিধ`
+`memoId` ঐচ্ছিক — থাকলে `memorization.json`-এর `id`-এর সাথে মিলিয়ে আইটেম পেজে "মুখস্থ অনুশীলন" বাটন দেখানো হয়।
 
 ## `books.json`
 
@@ -149,6 +157,30 @@
 ```
 
 > প্রতিটি `month`-এর `id` স্থিতিশীল রাখতে হবে (যেমন `2026-01`)। `practice` ঐচ্ছিক।
+
+## `programs.json`
+
+সর্বোচ্চ স্তরের সিলেবাস কার্ড (কর্মী / সাথী / সদস্য)। প্রতিটি প্রোগ্রাম তার `stageIds` দিয়ে `stages.json`-এর বিষয়গুলোকে একটি ক্রমে সাজায়।
+
+```json
+{
+  "programs": [
+    {
+      "id": "kormi",
+      "title": "কর্মী সিলেবাস",
+      "subtitle": "প্রাথমিক পর্যায়",
+      "heading": "কর্মী পাঠ মূল্যায়ন পরীক্ষার সিলেবাস ২০২৬",
+      "description": "…",
+      "colorValue": 4289925679,
+      "sourceUrl": "https://shibircloud.com/pdf/kormider_path_mulyayon_o_odhoyon_syllabus_2026.pdf",
+      "stageIds": ["kormi-quran", "kormi-hadith", "kormi-baktito"]
+    }
+  ]
+}
+```
+
+- `colorValue` — ARGB int (যেমন `0xFFB3122F` → `4289925679`)। `0` হলে ডিফল্ট রং ব্যবহার হয়।
+- `sourceUrl` — "সম্পূর্ণ সিলেবাস দেখুন" বাটনের PDF লিংক (ঐচ্ছিক)।
 
 ## ID নিয়ম
 
