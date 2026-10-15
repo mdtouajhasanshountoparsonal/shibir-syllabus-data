@@ -72,25 +72,33 @@
           "id": "quran-memo-bakara-155",
           "title": "সূরা আল বাকারা : ১৫৫",
           "type": "memorization",
-          "category": "কুরআন মুখস্থ নির্দেশনা"
+          "category": "কুরআন মুখস্থ নির্দেশনা",
+          "memoId": "memo_bakara_155",
+          "description": "সূরা আল-বাকারা : ১৫৫ — সবরকারীদের সুসংবাদ।"
         },
         {
           "id": "quran-memo-ayatul-kursi",
           "title": "আয়াতুল কুরসি",
           "type": "memorization",
-          "category": "কুরআন মুখস্থ নির্দেশনা"
+          "category": "কুরআন মুখস্থ নির্দেশনা",
+          "memoId": "memo_ayatul_kursi",
+          "description": "আয়াতুল কুরসি — কুরআনের সর্বশ্রেষ্ঠ আয়াত।"
         },
         {
           "id": "quran-memo-hashr",
           "title": "সূরা আল হাশর : শেষ রুকু",
           "type": "memorization",
-          "category": "কুরআন মুখস্থ নির্দেশনা"
+          "category": "কুরআন মুখস্থ নির্দেশনা",
+          "memoId": "memo_hashr_last",
+          "description": "সূরা আল-হাশর : শেষ রুকু (২২–২৪)।"
         },
         {
           "id": "quran-memo-duha-takasur",
           "title": "সূরা আদ দুহা থেকে সূরা আত তাকাসুর পর্যন্ত",
           "type": "memorization",
-          "category": "কুরআন মুখস্থ নির্দেশনা"
+          "category": "কুরআন মুখস্থ নির্দেশনা",
+          "memoId": "memo_duha_takasur",
+          "description": "সূরা আদ-দুহা থেকে সূরা আত-তাকাসুর পর্যন্ত ১০টি সূরা।"
         }
       ]
     },
@@ -326,21 +334,24 @@
           "title": "২. তথ্যপ্রযুক্তির সহজ পাঠ — আইসিএস পাবলিকেশন",
           "type": "other",
           "category": "গ্রন্থনির্দেশনা",
-          "author": "আইসিএস পাবলিকেশন"
+          "author": "আইসিএস পাবলিকেশন",
+          "description": "তথ্যপ্রযুক্তির মৌলিক ধারণা, কম্পিউটার, ইন্টারনেট ও আধুনিক প্রযুক্তির সহজ পরিচিতি।"
         },
         {
           "id": "career-kazi-deen",
           "title": "৩. ড. কাজী দীন মুহম্মদ রচনাবলী — নতুন মাত্রা",
           "type": "other",
           "category": "গ্রন্থনির্দেশনা",
-          "author": "নতুন মাত্রা"
+          "author": "নতুন মাত্রা",
+          "description": "ড. কাজী দীন মুহম্মদের নির্বাচিত রচনাবলী — শিক্ষা, সমাজ ও মূল্যবোধ নিয়ে চর্চা।"
         },
         {
           "id": "career-uss",
           "title": "৪. Understanding Science Series (USS) — BICS",
           "type": "other",
           "category": "গ্রন্থনির্দেশনা",
-          "author": "BICS"
+          "author": "BICS",
+          "description": "ইংরেজিতে জ্ঞান-বিজ্ঞানের পাঠ (Understanding Science Series) — একাডেমিক উৎকর্ষের জন্য।"
         }
       ]
     },
@@ -354,19 +365,22 @@
           "id": "bibidho-language",
           "title": "১. ভাষাগত দক্ষতা অর্জন (আরবি, বাংলা ও ইংরেজি)",
           "type": "other",
-          "category": "বিবিধ"
+          "category": "বিবিধ",
+          "description": "আরবি, বাংলা ও ইংরেজি ভাষার মূল দক্ষতা—পড়া, লেখা, শোনা ও বলা চর্চা।"
         },
         {
           "id": "bibidho-gk",
           "title": "২. সাধারণ জ্ঞান",
           "type": "other",
-          "category": "বিবিধ"
+          "category": "বিবিধ",
+          "description": "সাধারণ জ্ঞান—বাংলাদেশ ও বিশ্ব, ইসলামের ইতিহাস, বিজ্ঞান ও সাম্প্রতিক বিষয়।"
         },
         {
           "id": "bibidho-health",
           "title": "৩. স্বাস্থ্য সচেতনতা",
           "type": "other",
-          "category": "বিবিধ"
+          "category": "বিবিধ",
+          "description": "স্বাস্থ্য সচেতনতা—পরিচ্ছন্নতা, খাদ্যাভ্যাস, ব্যায়াম ও সুস্থ জীবনযাপন।"
         }
       ]
     }
